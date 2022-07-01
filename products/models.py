@@ -26,7 +26,7 @@ class Drink(models.Model):
         db_table = 'drink'
 
 
-class Nutritions(models.Model):
+class(models.Model):
     one_serving_kca = models.DecimalField(max_digits=10,decimal_places=2, null=True)
     sodium_mg = models.DecimalField(max_digits=10,decimal_places=2, null=True)
     saturated_fat_g = models.DecimalField(max_digits=10,decimal_places=2, null=True)
